@@ -8,6 +8,7 @@
         update_cache: yes
         cache_valid_time: 3600
       register: apt_update
+
     - name: Print apt update results
       debug:
         var: apt_update
