@@ -1,0 +1,13 @@
+---
+all:
+  children:
+    pve_2_nodes:
+      hosts:
+        wazuh:
+          ansible_host: 10.0.0.101
+        misp:
+          ansible_host: 10.0.0.105
+        semaphore:
+          ansible_host: 10.0.0.112
+        zabbix:
+          ansible_host: 10.0.0.104
